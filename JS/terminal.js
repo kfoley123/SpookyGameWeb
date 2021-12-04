@@ -1,5 +1,6 @@
 let userInput, terminalOutput;
 let lastCommands = [];
+let characterName;
 
 
 
@@ -83,8 +84,12 @@ function clearScreen() {
 }
 
 function startGame(){
-  console.log("startGameWorks!");
+  terminalOutput.innerHTML = `${terminalOutput.innerHTML} <div class="terminal-line"> Enter your character name: </div>`;
 
+  // TODO: make this work! 
+  // (copied from python OG) 
+  // print("You have chosen the name " + characterName) 
+  // print("")
 
 }
 
