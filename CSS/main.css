@@ -19,7 +19,8 @@ body {
   height: 100%;
   overflow: auto;
   padding: 20px;
-  background-color: #e5e5e5;
+  background-image: url("../spookybuilding.jpeg");
+  background-size: 87%;
 }
 
 .terminal_text {
@@ -73,18 +74,18 @@ p {
   position: relative;
   font-family: "Anonymous Pro", monospace;
   font-size: 0.9em;
-  color: #5d656b;
+  color: #a599b0;
   margin-top: 5px;
 }
 
 .directory {
-  color: #75e1e7;
+  color: #c9eac1;
   font-weight: 500;
 }
 
 
 .success {
-  color: #8dd39e;
+  color: #c9eac1;
 }
 .link {
   color: #21ff80;
@@ -107,7 +108,7 @@ p {
 .code,
 .error,
 .fa-heart {
-  color: #d7566a;
+  color: #c9eac1;
 }
 
 .dummy-keyboard {
@@ -169,14 +170,14 @@ p {
   width: 550px;
   box-sizing: border-box;
   height: 25px;
-  background-color: #f0f0f3;
+  background-color: #a599b0;
   margin: 0 auto;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
 
 .fakeScreen {
-  /* background-color: #151515; */
+  background-color: #2f2f2f; 
   box-sizing: border-box;
   width: 550px;
   height: 400px;
@@ -187,6 +188,5 @@ p {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 
-  background: #f0f0f3;
-  box-shadow: -10px -10px 30px #ffffff, 10px 10px 30px rgba(174, 174, 192, 0.4);
+  box-shadow: -10px -10px 30px #a599b0, 10px 10px 30px rgba(174, 174, 192, 0.4);
 }
